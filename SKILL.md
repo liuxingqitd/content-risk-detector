@@ -1,13 +1,13 @@
 ---
 name: content-risk-detector
-version: "1.0.0"
+version: "1.1.0"
 description: '检测短视频逐字稿是否违反抖音、小红书、视频号的社区规范,识别违规风险点,提供分级风险报告和具体修改建议。触发词: "内容合规检测"、"逐字稿检测"、"风险检测"、"短视频合规"、"平台规范检测"'
 license: MIT
 allowed-tools: null
 compatibility: "Claude Code ≥1.0"
 metadata:
   author: liuxingqi
-  version: "1.0.0"
+  version: "1.1.0"
   tags:
     - content-detection
     - risk-audit
@@ -36,6 +36,7 @@ metadata:
 - 检测平台运营风险(虚假宣传、恶意导流、无资质建议等)
 - 评估价值观导向问题(炫富拜金、危险行为、网络暴力等)
 - 判定平台特殊规则(虚假人设、AI标注、商品推广规范等)
+- 检测境外平台名称提及风险(Twitter/Reddit/Facebook等引发互联网法规违规)
 
 ## 规则库引用
 
